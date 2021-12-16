@@ -32,11 +32,17 @@
         </div>
       </nav>
 
-    <input type="text" id="cryptoInput" onkeyup="searchFunction()" disabled placeholder="Search cryptocurrency">
+    <form>
+        <input type="text" id="cryptoInput" disabled placeholder="Search cryptocurrency">
+        <input type="button" value="Search" onclick="searchFunction()">
+    </form>
 
-    <p id="cryptoOutput">
-        
-    </p>
+
+
+    <p id="cryptoOutputName"></p>
+
+    <p id="cryptoOutputValue"></p>
+
 
 
     <section id="videos">
@@ -48,10 +54,9 @@
         </div>
         </section>
 
-
-    </section>
-
-
     <script src="./assets/script.js"></script>
     
 
+</body>
+
+</html>
