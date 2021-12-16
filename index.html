@@ -32,11 +32,22 @@
         </div>
       </nav>
 
-    <input type="text" id="cryptoInput" onkeyup="searchFunction()" disabled placeholder="Search cryptocurrency">
+      <section class="direction">
+        <h3>Type your favorite Cyptocurrency to see current price.</h3>
+      </section>
 
-    <p id="cryptoOutput">
-        
-    </p>
+      <form>
+        <input type="text" id="cryptoInput" disabled placeholder="Search cryptocurrency">
+        <input class="button secondary expanded" type="button" value="Search" onclick="searchFunction()">
+    </form>
+
+
+
+    <p id="cryptoOutputName"></p>
+
+    <p id="cryptoOutputValue"></p>
+
+  
 
 
     <div class="grid-container">
