@@ -135,6 +135,7 @@ p {
   font-size: 60px;
   color: green;
   font-weight: bolder;
+  text-align: justify;
 }
 
 
@@ -147,7 +148,12 @@ p {
   padding-right: 40px;
   padding-left: 40px;
   text-align: center;
+  margin-bottom: 25px;
 }
 
-
+footer {
+ border-bottom: 30px solid #2c3840;
+ position: relative;
+ bottom: -75px;
+}
    
